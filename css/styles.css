@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(126, 122, 122);
+}
+
+.header {
+  background-color: rgb(209, 205, 199);
+  height: 70px;
+}
+
+.menu {
+  float: right;
+  margin: 25px;
+}
+
+.menu a {
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.banner h1 {
+  text-align: center;
+  font-size: 80px;
+  padding: 100px 100px;
+  color: white;
+}
+
+.banner h2 {
+  text-align: center;
+  color: rgb(6, 2, 10);
+}
+
+.imageContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.imagen {
+  display: flex;
+  height: 400px;
+  width: 400px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  padding: 2px 16px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 100px 70px 100px;
+}
+
+
+
+#about{
+  color: aliceblue;
+}

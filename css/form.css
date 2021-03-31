@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(209, 205, 199);
+  height: 70px;
+}
+
+.menu {
+  float: right;
+  margin: 25px;
+}
+
+.menu a {
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 100px 70px 100px;
+}
+
+/* Estilos formulario  */
+
+.container{
+    width: 40%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    height: 800px;
+    border: 2px #E6E6E6 solid;
+    border-right: 2px #E6E6E6 solid;
+    border-bottom: 2px #E6E6E6 solid;
+    
+}
+.main-formulario{
+    width: 400px;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+label, input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 7px;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+}
+

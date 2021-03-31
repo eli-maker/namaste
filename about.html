@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>About us</title>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo">
+          <a href=""> Namaste conections </a>
+        </div>
+  
+        <div class="menu">
+          <table>
+            <tr>
+              <td><a href="index.html" target="_blank">Inicio</a></td>
+              <td>
+                <a href="./about.html" target="_blank">Sobre Notros</a>
+              </td>
+              <td><a href="./form.html" target="_blank">Contacto</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+  
+      <div class="banner">
+        <h1>Sobre Nosotros</h1>
+         <div class="imageContainer">
+          <div class="imagen">
+            <img src="./img/yoga2.jpg" alt="" />
+          </div>
+        </div>
+         <br/><br/>
+         <h2 id="about">Somos una plataforma que permite conectar a las personas amantes de la práctica del yoga con centros que ofrecen tanto      certificados como retiros de yoga en toda Colombia. 
+            Encuentra el lugar de tu preferencia y conecta con todas las opciones locales disponibles que te puedan proveer este servicio. </h2>
+        <br><br>
+     
+    </div>
+        <h1>Suscríbete</h1>
+           <div class="container">
+           <form class="main-formulario" action="">
+            <label for="nombre">Escriba su nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required>
+            <br><br>
+            <label for="apellido">Escriba su apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Escriba su apellido" required>
+            <br><br>
+            <label for="correo">Ingrese su correo</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingrese su correo" required>
+            <br><br>
+            <label for="vinyasa">Vinyasa</label>
+            <input type="checkbox" id="vinyasa" name="yoga">
+            <label for="">Hatha</label>
+            <input type="checkbox" id="hatha" name="yoga">
+            <label for="flow">Flow</label>
+            <input type="checkbox" id="flow" name="yoga">
+            <br><br>
+            <input type="submit" onclick="enviarFormulario()" value="enviar">
+            
+    </div>
+     
+  
+      <footer class="footer">
+        <div >
+          <img src="./img/facebook1.jpg" src="" width="100" height="50" alt="" />
+          <img src="./img/insta.jpg" src="" width="75" height="50" alt="" />
+          <img src="./img/twitter.png" src="" width="50" height="50" alt="" />
+        </div>
+        <p>Desarrollada por Eliana Moreno</p>
+        &copy;
+      </footer>
+
+
+
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script src="./js/formulario.js"></script>
+    </body>
+  </html>   
+
+
+
+
+    
+    
+
+</body>
+</html>
